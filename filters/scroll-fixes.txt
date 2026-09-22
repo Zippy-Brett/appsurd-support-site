@@ -1,0 +1,7 @@
+[Adblock Plus 2.0]
+! Title: Scroll in Peace site fixes
+! Version: 20260914.1
+! Expires: 6 hours
+! Maintainer: Claude Alfred Henderson
+! Site-specific rules reviewed by Scroll in Peace.
+! Empty initial list: no unverified site fixes are applied.

@@ -1,0 +1,17 @@
+{
+  "files": [
+    "downloads/scroll-in-peace-desktop-tester-kit.zip",
+    "downloads/scroll-in-peace-firefox-desktop-1.0.0-signed.xpi",
+    "downloads/scroll-in-peace-firefox-desktop-1.0.1-signed.xpi",
+    "filter-maintenance.html",
+    "filter-maintenance.js",
+    "filters/scroll-fixes.txt",
+    "index.html",
+    "maintenance-filters.js",
+    "maintenance-manifest.json",
+    "maintenance-validation.js",
+    "maintenance-zip.js",
+    "privacy.html",
+    "support.html"
+  ]
+}
