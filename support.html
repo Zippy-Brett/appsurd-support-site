@@ -1,24 +1,61 @@
-App Support
-Need help with one of our apps? We’re happy to help.
-For support, bug reports, feedback, or feature requests, please tell us which app you’re contacting us about and include your device model, operating-system version, browser and extension version where relevant, and a description of the issue. Please avoid sending browsing history, account details, or other private page content.
-Apps we support: Appsurd, Back The Pack, Hold My Place, Sensory Seek, Trip Tiles, Roametry, Lifetility, CoreLink, Budsistant, Let's Color, What's That Hue?, and Scroll in Peace.
-Scroll in Peace desktop testing
-Testing Scroll in Peace in Chrome, Edge, or Firefox on your computer? Download the kit below. It includes the extensions and installation instructions.
-Download desktop tester kit (ZIP)
-Extract the ZIP, then open TesterNotes.md and follow the instructions for your browser. Chrome and Edge testers receive version 1.0.2; Firefox desktop testers receive version 1.0.1 and need Firefox 153 or newer.
-Firefox testers: extract the kit, open about:addons → Extensions → gear menu → Install Add-on From File, and choose the signed .xpi in the Firefox folder. If you previously loaded a temporary add-on, quit and reopen Firefox first. Extension upgrades are manual during this beta; filter updates are automatic.
-Chrome/Edge 1.0.2 and Firefox 1.0.1 receive Scroll-maintained site fixes through filter updates. Existing Firefox testers should install the newer signed XPI; Chrome/Edge testers should update and reload their existing unpacked folder. Approve the new support-site download permission if requested. Safari does not use the site-fixes list yet.
-Firefox upgrade check: in about:addons → Scroll in Peace → Permissions and data, make sure access to https://easylist.to and https://jocular-sherbet-13dd23.netlify.app is on. Firefox may leave the new support-site switch off after an upgrade. Enable it, click Update filters, and confirm the Scroll site fixes version in Filter details & settings. No Firefox account sign-in is needed.
-This is a test build. Firefox includes a Mozilla-signed add-on that stays installed after restarting the browser; its network blocking coverage is smaller than the Chrome/Edge edition. Safari testers should use their separately supplied app or TestFlight build. The kit is for desktop browsers.
-Hold My Place
-For help with a project record, hardware list, reminder, photo, Siri shortcut, or device permission, email us with your iPhone model, iOS version, and a short description of the issue. Please do not send project photos, private notes, or account information unless it is necessary for your request.
-Scroll in Peace setup
-On iPhone, iPad, and Mac, Scroll in Peace's App Store app provides Safari protection. Enable Scroll in Peace Filters (Ads & Cleanup) and Scroll in Peace Privacy in Safari Settings. Enable Advanced Protection and its YouTube access separately if you want supported Skip Ad controls.
-Desktop Chrome, Edge, and Firefox require the separate Scroll in Peace browser extension. Installing the Safari app does not install or activate those extensions. This release does not provide Scroll in Peace blocking inside Chrome, Edge, or Firefox on iPhone or iPad. Firefox desktop requires version 153 or newer.
-After installing a desktop extension, wait for the maintained filter update to finish. Allow optional page cleanup or YouTube access if desired, then reload already-open pages. Advanced Protection starts off and activates only available recognized Skip Ad controls. Browser rule budgets and unsupported filter syntax limit coverage; some ads can remain.
-For a stuck or failed update, send the displayed error and your app/browser versions. Avoid reinstalling or deleting your settings before contacting support.
-Privacy policy
-Contact support
-420productions.zippy.brett@protonmail.com
-Developer: Claude Alfred Henderson.
-© 2026 Appsurd
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=ai-legible&utm_source=comment&utm_medium=referral&utm_id=40bbe994-4aa1-4779-8b2d-e5ea39b0bd0e
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="hosting-provider" content="Netlify">
+<meta name="netlify-deploy" content="https://netlify.new/?utm_campaign=ai-legible&amp;utm_source=meta&amp;utm_medium=referral&amp;utm_id=40bbe994-4aa1-4779-8b2d-e5ea39b0bd0e">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>App Support</title>
+  <meta name="description" content="Support and contact information for Appsurd apps.">
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f5f7; color: #1d1d1f; }
+    main { width: min(620px, calc(100% - 40px)); box-sizing: border-box; padding: 42px; border-radius: 22px; background: #fff; box-shadow: 0 12px 40px #00000012; }
+    h1 { margin: 0 0 10px; font-size: clamp(28px, 6vw, 42px); letter-spacing: -.03em; }
+    p { margin: 12px 0; }
+    a { color: #06c; }
+    .download { display: inline-block; padding: 12px 18px; border-radius: 10px; background: #06c; color: #fff; font-weight: 600; text-decoration: none; }
+    .download:focus-visible { outline: 3px solid #b87900; outline-offset: 3px; }
+    section { margin: 28px 0; }
+    .contact { margin-top: 28px; padding: 18px 20px; border-radius: 14px; background: #f5f5f7; }
+    footer { margin-top: 30px; font-size: 13px; color: #6e6e73; }
+    @media (prefers-color-scheme: dark) { body { background: #1d1d1f; color: #f5f5f7; } main { background: #2c2c2e; box-shadow: none; } .contact { background: #3a3a3c; } footer { color: #a1a1a6; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>App Support</h1>
+    <p>Need help with one of our apps? We’re happy to help.</p>
+    <p>For support, bug reports, feedback, or feature requests, please tell us which app you’re contacting us about and include your device model, operating-system version, browser and extension version where relevant, and a description of the issue. Please avoid sending browsing history, account details, or other private page content.</p>
+    <p><strong>Apps we support:</strong> Appsurd, Back The Pack, Hold My Place, Sensory Seek, Trip Tiles, Roametry, Lifetility, CoreLink, Budsistant, Let's Color, What's That Hue?, and Scroll in Peace.</p>
+    <section id="desktop-testers" aria-labelledby="tester-heading">
+      <h2 id="tester-heading">Scroll in Peace desktop testing</h2>
+      <p>Testing Scroll in Peace in Chrome, Edge, or Firefox on your computer? Download the kit below. It includes the extensions and installation instructions.</p>
+      <p><a class="download" href="downloads/scroll-in-peace-desktop-tester-kit.zip" download>Download desktop tester kit (ZIP)</a></p>
+      <p>Extract the ZIP, then open <strong>TesterNotes.md</strong> and follow the instructions for your browser. Chrome and Edge testers receive version 1.0.2; Firefox desktop testers receive version 1.0.1 and need Firefox 153 or newer.</p>
+      <p>Firefox testers: extract the kit, open <strong>about:addons → Extensions → gear menu → Install Add-on From File</strong>, and choose the signed <strong>.xpi</strong> in the Firefox folder. If you previously loaded a temporary add-on, quit and reopen Firefox first. Extension upgrades are manual during this beta; filter updates are automatic.</p>
+      <p>Chrome/Edge 1.0.2 and Firefox 1.0.1 receive Scroll-maintained site fixes through filter updates. Existing Firefox testers should install the newer signed XPI; Chrome/Edge testers should update and reload their existing unpacked folder. Approve the new support-site download permission if requested. Safari does not use the site-fixes list yet.</p>
+      <p>Firefox upgrade check: in <strong>about:addons → Scroll in Peace → Permissions and data</strong>, make sure access to <strong>https://easylist.to</strong> and <strong>https://jocular-sherbet-13dd23.netlify.app</strong> is on. Firefox may leave the new support-site switch off after an upgrade. Enable it, click <strong>Update filters</strong>, and confirm the Scroll site fixes version in Filter details &amp; settings. No Firefox account sign-in is needed.</p>
+      <p>This is a test build. Firefox includes a Mozilla-signed add-on that stays installed after restarting the browser; its network blocking coverage is smaller than the Chrome/Edge edition. Safari testers should use their separately supplied app or TestFlight build. The kit is for desktop browsers.</p>
+    </section>
+    <h2>Hold My Place</h2>
+    <p>For help with a project record, hardware list, reminder, photo, Siri shortcut, or device permission, email us with your iPhone model, iOS version, and a short description of the issue. Please do not send project photos, private notes, or account information unless it is necessary for your request.</p>
+    <h2>Scroll in Peace setup</h2>
+    <p>On iPhone, iPad, and Mac, Scroll in Peace's App Store app provides Safari protection. Enable Scroll in Peace Filters (Ads &amp; Cleanup) and Scroll in Peace Privacy in Safari Settings. Enable Advanced Protection and its YouTube access separately if you want supported Skip Ad controls.</p>
+    <p>Desktop Chrome, Edge, and Firefox require the separate Scroll in Peace browser extension. Installing the Safari app does not install or activate those extensions. This release does not provide Scroll in Peace blocking inside Chrome, Edge, or Firefox on iPhone or iPad. Firefox desktop requires version 153 or newer.</p>
+    <p>After installing a desktop extension, wait for the maintained filter update to finish. Allow optional page cleanup or YouTube access if desired, then reload already-open pages. Advanced Protection starts off and activates only available recognized Skip Ad controls. Browser rule budgets and unsupported filter syntax limit coverage; some ads can remain.</p>
+    <p>For a stuck or failed update, send the displayed error and your app/browser versions. Avoid reinstalling or deleting your settings before contacting support.</p>
+    <p><a href='/privacy'>Privacy policy</a></p>
+    <div class="contact">
+      <strong>Contact support</strong><br>
+      <a href="mailto:420productions.zippy.brett@protonmail.com">420productions.zippy.brett@protonmail.com</a>
+    </div>
+    <p>Developer: Claude Alfred Henderson.</p>
+    <footer>© 2026 Appsurd</footer>
+  </main>
+</body>
+</html>
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="40bbe994-4aa1-4779-8b2d-e5ea39b0bd0e" data-app-host="app.netlify.com"></script>
